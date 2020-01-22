@@ -1,0 +1,290 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+h1 {
+  opacity: 0.8;
+  text-decoration: dashed underline overline;
+  font-variant: small-caps;
+}
+
+hr {
+  height: 10px;
+  color: black;
+  background-color: black;
+  border-radius: 25px;
+}
+
+html, 
+body {
+  background-color: blue;
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  min-width: 320px; 
+  opacity: 0.9;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#form-outer {
+  background-color: rgb(250, 250, 250);
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 20%;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 260px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+  background-color: #fae0de;
+  font-family: arial;
+}
+
+.input-field:hover {
+  background-color: #a5d9ba;
+  opacity: 0.4;
+}
+
+.dropdown {
+  height: 35px;
+  width: 270px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  background-color: #fae0de;
+}
+
+.dropdown:hover {
+   background-color: #a5d9ba;
+  opacity: 0.4;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 10px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.radio:hover {
+  background-color: #a5d9ba;
+  opacity: 0.4;
+}
+
+.checkbox:hover {
+  background-color: #a5d9ba;
+  opacity: 0.4;
+}
+
+button:hover {
+  animation-name: button;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+} @keyframes button {
+  100% {
+    background-color: red;
+    transform: scale(1.5);
+  }
+}
+
+p {
+animation-name: p;
+animation-duration: 10s;
+animation-fill-mode: forwards;
+} @keyframes p {
+  100% {
+    color: white;
+    transform: scale(1.5);
+  }
+}   
+/* MEDIA QUERY */
+
+@media (max-width: 480px) {
+  
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+h1 {
+  opacity: 0.8;
+  text-decoration: dashed underline overline;
+  font-variant: small-caps;
+}
+  
+  h1 {
+    animation-name: h1;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+  } @keyframes h1 {
+    100% {
+      color: #26e0ac;
+      transform: scale(1.5);
+    }
+  }
+
+hr {
+  height: 4px;
+  color: black;
+  background-color: grey;
+  border-radius: 25px;
+}
+
+html, 
+body {
+  background-color: blue;
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+header {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#form-outer {
+  background-color: rgb(250, 250, 250);
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  margin: 0 auto;
+  border-radius: 0px;
+  width: 100%;
+  max-width: 900px;
+  padding: 0px;
+  padding-top: 20px;
+} 
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 20%;
+  padding-right: 15px;
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 12px !important;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+  font-size: 12px !important;
+}
+
+.input-field {
+  height: 20px;
+  width: 170px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+  background-color: #fae0de;
+  font-family: arial;
+}
+
+.input-field:hover {
+  background-color: #a5d9ba;
+  opacity: 0.4;
+}
+
+.dropdown {
+  height: 30px;
+  width: 180px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  background-color: #fae0de;
+}
+
+.dropdown:hover {
+  background-color: #a5d9ba;
+  opacity: 0.4;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 0px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 0px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.radio:hover {
+  background-color: #a5d9ba;
+  opacity: 0.4;
+}
+
+.checkbox:hover {
+  background-color: #a5d9ba;
+  opacity: 0.4;
+}
+
+button:hover {
+  animation-name: button;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+} @keyframes button {
+  100% {
+    background-color: red;
+    transform: scale(1.5);
+  }
+}  
+p, .labels, .rightTab {
+animation-name: p;
+animation-duration: 10s;
+animation-fill-mode: forwards;
+} @keyframes p {
+  100% {
+    color: white;
+    transform: scale(1.1);
+  }
+}     
+  
+}
+
